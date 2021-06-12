@@ -43,9 +43,12 @@ def index():
             values += "\'None\',"
     values = values[:-1]
 
-    print(f"INSERT INTO fingerprint ({keys}) VALUES ({values})")
     ENGINE.execute(f"INSERT INTO fingerprint ({keys}) VALUES ({values})")
     return render_template("index.html")
+
+@server.route('/team')
+def team():
+    return render_template("team.html")
 
 if __name__ == '__main__':
     
