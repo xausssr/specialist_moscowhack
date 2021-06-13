@@ -1,0 +1,104 @@
+        "name": "PHP",
+        "color": "#00a6d8",
+        "r": "30",
+        "rule": "",
+        "children": [{
+            "name": "Уроки PHP для начинающих",
+            "link": "https://www.youtube.com/playlist?list=PLDyJYA6aTY1m5zGQVcEYIoSFz2GD8u7cC",
+            "color": "#00a6d8",
+            "r": "30",
+            "rule": "",
+            "children": [{
+                "name": "Cоветы и рекомендации для новичка",
+                "link": "https://skillbox.ru/media/code/kak_vyuchit_php/",
+                "color": "#00a6d8",
+                "r": "15",
+                "rule": ""
+            },
+            {
+                "name": "Курс PHP",
+                "link": "https://beonmax.com/courses/php-and-mysql/?pref=14251",
+                "color": "#00a6d8",
+                "r": "30",
+                "rule": "",
+
+
+                    "children": [{
+                    "name": "9 самых популярных PHP-фреймворков",
+                    "link": "https://habr.com/ru/company/ruvds/blog/539098/",
+                    "color": "#ffffff",
+                    "r": "15",
+                    "rule": ""
+                },
+                {
+                    "name": "Дэвид Скляр, Адам Трахтенберг. PHP. Рецепты программирования",
+                    "link": "https://proglib.io/p/top-10-knig-po-php-ot-novichka-do-professionala-2020-05-24",
+                    "color": "#ffffff",
+                    "r": "15",
+                    "rule": ""
+                },
+                {
+                    "name": "Веб-разработчик с нуля",
+                    "link": "https://netology.ru/programs/web-developer#/",
+                    "color": "#ffffff",
+                    "r": "30",
+                    "rule": "",
+
+
+
+
+                        "children": [{
+                        "name": "Становимся профессиональными PHP разработчиками",
+                        "link": "https://habr.com/ru/post/273609/",
+                        "color": "#ffffff",
+                        "r": "15",
+                        "rule": ""
+                    },
+                    {
+                        "name": "Для профи: книги о PHP-фреймворках и архитектуре приложений",
+                        "link": "https://leanpub.com/symfony5-bystryj-start",
+                        "color": "#ffffff",
+                        "r": "15",
+                        "rule": ""
+                    },
+                    {
+                        "name": "Становимся профессиональными PHP разработчиками.",
+                        "link": "https://habr.com/ru/post/273421/",
+                        "color": "#ffffff",
+                        "r": "15",
+                        "rule": ""
+                    }
+                    ]
+
+
+
+
+                },
+                {
+                    "name": "Задачник по PHP (с решениями)",
+                    "link": "https://vk.com/wall-101965347_145239",
+                    "color": "#00a6d8",
+                    "r": "15",
+                    "rule": ""
+                }
+                ]
+
+
+
+            },
+            {
+                "name": "Лучшие шпаргалки для веб-разработчиков",
+                "link": "https://proglib.io/p/web-cheatsheets/",
+                "color": "#00a6d8",
+                "r": "15",
+                "rule": ""
+        },
+            {
+                "name": "Актуален ли PHP в 2021 году?",
+                "link": "https://habr.com/ru/company/leader-id/blog/539696/",
+                "color": "#00a6d8",
+                "r": "15",
+                "rule": ""
+            }
+            ]
+        }]

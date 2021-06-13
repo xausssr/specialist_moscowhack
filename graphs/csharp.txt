@@ -1,0 +1,104 @@
+        "name": "C#",
+        "color": "#ffffff",
+        "r": "30",
+        "rule": "",
+        "children": [{
+            "name": "НАЧАЛЬНЫЙ",
+            "link": "https://itproger.com/course/csharp",
+            "color": "#ffffff",
+            "r": "30",
+            "rule": "",
+            "children": [{
+                "name": "Книга C# для чайников Джон Поль",
+                "link": "https://www.ozon.ru/context/detail/id/154438552/?utm_content=link",
+                "color": "#ffffff",
+                "r": "15",
+                "rule": ""
+            },
+            {
+                "name": "СРЕДНИЙ",
+                "link": "https://itproger.com/course/csharp-app",
+                "color": "#ffffff",
+                "r": "30",
+                "rule": "",
+
+
+                    "children": [{
+                    "name": "C# 7.0. Справочник. Полное описание языка",
+                    "link": "https://www.ozon.ru/context/detail/id/145563645/?utm_content=link",
+                    "color": "#ffffff",
+                    "r": "15",
+                    "rule": ""
+                },
+                {
+                    "name": "C# 7.0. Карманный справочник | Албахари Джозеф",
+                    "link": "https://www.ozon.ru/context/detail/id/142089789/?utm_content=link",
+                    "color": "#ffffff",
+                    "r": "15",
+                    "rule": ""
+                },
+                {
+                    "name": "ПРО",
+                    "link": "https://itvdn.com/ru/video/csharp-for-professional/input-output",
+                    "color": "#ffffff",
+                    "r": "30",
+                    "rule": "",
+
+
+
+
+                        "children": [{
+                        "name": "C# 7 и .NET Core. Кросс-платформенная разработка для профессионалов | Прайс Марк",
+                        "link": "https://www.ozon.ru/context/detail/id/145871271/?utm_content=link",
+                        "color": "#ffffff",
+                        "r": "15",
+                        "rule": ""
+                    },
+                    {
+                        "name": "Язык программирования C# 7 и платформы .NET и .NET Core | Джепикс Филипп",
+                        "link": "https://www.ozon.ru/context/detail/id/146756705/?utm_content=link",
+                        "color": "#ffffff",
+                        "r": "15",
+                        "rule": ""
+                    },
+                    {
+                        "name": "C# для профессионалов. Тонкости программирования | Скит Джон",
+                        "link": "https://www.ozon.ru/context/detail/id/148944933/?utm_content=link",
+                        "color": "#ffffff",
+                        "r": "15",
+                        "rule": ""
+                    }
+                    ]
+
+
+
+
+                },
+                {
+                    "name": "Принципы, паттерны и методики гибкой разработки на языке C#",
+                    "link": "https://www.litres.ru/robert-s-martin/principy-patterny-i-metodiki-gibkoy-razrabotki-na-24499766/?utm_source=admitad.com&utm_medium=cpa&utm_campaign=main",
+                    "color": "#ffffff",
+                    "r": "15",
+                    "rule": ""
+                }
+                ]
+
+
+
+            },
+            {
+                "name": "Книга Программирование на C# для начинающих.\n Основные сведения",
+                "link": "https://book24.ru/product/programmirovanie-na-c-dlya-nachinayushchikh-osnovnye-svedeniya-1855474/?utm_source=admitad&utm_medium=cpa&utm_campaign=1002797_5001705&utm_content=a70ca72bb25691d4240110abe169a33f&partnerId=5001705&tagtag_uid=a70ca72bb25691d4240110abe169a33f",
+                "color": "#ffffff",
+                "r": "15",
+                "rule": ""
+        },
+            {
+                "name": "Шпаргалка",
+                "link": "https://proglib.io/p/c-sharp-cheat-sheet",
+                "color": "#ffffff",
+                "r": "15",
+                "rule": ""
+            }
+            ]
+        }]

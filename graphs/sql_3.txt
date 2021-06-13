@@ -1,0 +1,105 @@
+        "name": "SQL",
+        
+        "color": "#00a6d8",
+        "r": "30",
+        "rule": "",
+        "children": [{
+            "name": "НАЧАЛЬНЫЙ",
+            "link": "https://netology.ru/programs/sql-lessons",
+            "color": "#00a6d8",
+            "r": "30",
+            "rule": "",
+            "children": [{
+                "name": "Основные команды",
+                "link": "https://tproger.ru/translations/sql-recap/",
+                "color": "#00a6d8",
+                "r": "15",
+                "rule": ""
+            },
+            {
+                "name": "СРЕДНИЙ",
+                "link": "https://function-x.ru/sql_prilozhenija_s_bazami_dannyh.html",
+                "color": "#00a6d8",
+                "r": "30",
+                "rule": "",
+
+
+                    "children": [{
+                    "name": "Упражнения",
+                    "link": "https://www.sql-ex.ru/?Lang=0",
+                    "color": "#00a6d8",
+                    "r": "15",
+                    "rule": ""
+                },
+                {
+                    "name": "Создание базы данных",
+                    "link": "https://docs.microsoft.com/ru-ru/sql/relational-databases/databases/create-a-database?view=sql-server-ver15",
+                    "color": "#00a6d8",
+                    "r": "15",
+                    "rule": ""
+                },
+                {
+                    "name": "ПРО",
+                    "link": "http://sqlonline.ru/sqlpro",
+                    "color": "#ffffff",
+                    "r": "30",
+                    "rule": "",
+
+
+
+
+                        "children": [{
+                        "name": "Призрачные запросы",
+                        "link": "https://habr.com/ru/post/451034/",
+                        "color": "#ffffff",
+                        "r": "15",
+                        "rule": ""
+                    },
+                    {
+                        "name": "MySQL",
+                        "link": "https://www.specialist.ru/course/mskvl",
+                        "color": "#ffffff",
+                        "r": "15",
+                        "rule": ""
+                    },
+                    {
+                        "name": "PostgreSQL",
+                        "link": "https://otus.ru/lessons/postgresql/",
+                        "color": "#ffffff",
+                        "r": "15",
+                        "rule": ""
+                    }
+                    ]
+
+
+
+
+                },
+                {
+                    "name": "Продвинутые задачи",
+                    "link": "http://old.code.mu/tasks/php/sql/prodvinutye-sql-zaprosy.html",
+                    "color": "#00a6d8",
+                    "r": "15",
+                    "rule": ""
+                }
+                ]
+
+
+
+            },
+            {
+                "name": "SQL запросы быстро",
+                "link": "https://habr.com/ru/post/480838/",
+                "color": "#00a6d8",
+                "r": "15",
+                "rule": ""
+        },
+            {
+                "name": "Что нужно знать",
+                "link": "https://senior.ua/articles/chto-takoe-sql-vse-chto-vam-nuzhno-znat-o-yazyke-strukturirovannyh-zaprosov",
+                "color": "#00a6d8",
+                "r": "15",
+                "rule": ""
+            }
+            ]
+        }]

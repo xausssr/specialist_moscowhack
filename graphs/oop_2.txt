@@ -1,0 +1,104 @@
+        "name": "ООП",
+        "color": "#00a6d8",
+        "r": "30",
+        "rule": "",
+        "children": [{
+            "name": "НАЧАЛЬНЫЙ",
+            "link": "https://habr.com/ru/post/87119/",
+            "color": "#00a6d8",
+            "r": "30",
+            "rule": "",
+            "children": [{
+                "name": "Шпаргалка по принципам ООП",
+                "link": "https://tproger.ru/translations/oop-principles-cheatsheet/",
+                "color": "#00a6d8",
+                "r": "15",
+                "rule": ""
+            },
+            {
+                "name": "СРЕДНИЙ",
+                "link": "https://habr.com/ru/post/87205/",
+                "color": "#ffffff",
+                "r": "30",
+                "rule": "",
+
+
+                    "children": [{
+                    "name": "Мэтт Вайсфельд «Объектно-ориентированное мышление»",
+                    "link": "https://www.ozon.ru/product/obektno-orientirovannoe-myshlenie-26036833/",
+                    "color": "#ffffff",
+                    "r": "15",
+                    "rule": ""
+                },
+                {
+                    "name": "Для закрепления",
+                    "link": "https://skillbox.ru/media/code/oop_chast_1_chto_takoe_klassy_i_obekty/",
+                    "color": "#ffffff",
+                    "r": "15",
+                    "rule": ""
+                },
+                {
+                    "name": "ПРО",
+                    "link": "https://coursehunters.online/t/webshake-prodvinutyj-kurs-oop-v-php-chast-1/341",
+                    "color": "#ffffff",
+                    "r": "30",
+                    "rule": "",
+
+
+
+
+                        "children": [{
+                        "name": "Чем быстрее вы забудете ООП, тем лучше для вас и ваших программ",
+                        "link": "https://habr.com/ru/post/451982/",
+                        "color": "#ffffff",
+                        "r": "15",
+                        "rule": ""
+                    },
+                    {
+                        "name": "Паттерны ООП в метафорах",
+                        "link": "https://habr.com/ru/post/136766/",
+                        "color": "#ffffff",
+                        "r": "15",
+                        "rule": ""
+                    },
+                    {
+                        "name": "Бертран Мейер «Почувствуй класс",
+                        "link": "https://vk.com/doc9385624_274277026?hash=a351256a10ddc59413&dl=c31b6571a7272d7c7e",
+                        "color": "#ffffff",
+                        "r": "15",
+                        "rule": ""
+                    }
+                    ]
+
+
+
+
+                },
+                {
+                    "name": "Особенности моделирования предметной области с помощью ООП",
+                    "link": "https://habr.com/ru/post/249165/",
+                    "color": "#ffffff",
+                    "r": "15",
+                    "rule": ""
+                }
+                ]
+
+
+
+            },
+            {
+                "name": "ООП в картинках",
+                "link": "https://habr.com/ru/post/463125/",
+                "color": "#00a6d8",
+                "r": "15",
+                "rule": ""
+        },
+            {
+                "name": "Объектно-ориентированное программирование для чайников",
+                "link": "https://pro-prof.com/forums/topic/object-oriented-programming-introduction",
+                "color": "#00a6d8",
+                "r": "15",
+                "rule": ""
+            }
+            ]
+        }]

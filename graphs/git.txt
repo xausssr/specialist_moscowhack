@@ -1,0 +1,104 @@
+        "name": "Git",
+        "color": "#ffffff",
+        "r": "30",
+        "rule": "",
+        "children": [{
+            "name": "НАЧАЛЬНЫЙ",
+            "link": "https://habr.com/ru/post/472600/",
+            "color": "#ffffff",
+            "r": "30",
+            "rule": "",
+            "children": [{
+                "name": "Git за 30 минут",
+                "link": "https://proglib.io/p/git-for-half-an-hour",
+                "color": "#ffffff",
+                "r": "15",
+                "rule": ""
+            },
+            {
+                "name": "СРЕДНИЙ",
+                "link": "https://htmlacademy.ru/blog/boost/frontend/git-console",
+                "color": "#ffffff",
+                "r": "30",
+                "rule": "",
+
+
+                    "children": [{
+                    "name": "Полезные команды",
+                        "link": "https://htmlacademy.ru/blog/boost/tools/useful-commands-for-working-with-git",
+                    "color": "#ffffff",
+                    "r": "15",
+                    "rule": ""
+                },
+                {
+                    "name": "Шпаргалка",
+                    "link": "https://htmlacademy.ru/blog/boost/frontend/first-aid-git",
+                    "color": "#ffffff",
+                    "r": "15",
+                    "rule": ""
+                },
+                {
+                    "name": "ПРО",
+                    "link": "https://techrocks.ru/2020/06/30/git-concepts-for-advanced-users/",
+                    "color": "#ffffff",
+                    "r": "30",
+                    "rule": "",
+
+
+
+
+                        "children": [{
+                        "name": "Хитрые комманды Git",
+                            "link": "https://medium.com/nuances-of-programming/%D0%BF%D1%80%D0%BE%D0%B4%D0%B2%D0%B8%D0%BD%D1%83%D1%82%D1%8B%D0%B9-%D1%84%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB-git-%D1%85%D0%B8%D1%82%D1%80%D1%8B%D0%B5-%D0%BF%D1%80%D0%B8%D0%B5%D0%BC%D1%8B-%D0%B8-%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D1%8B-147958f5a81",
+                        "color": "#ffffff",
+                        "r": "15",
+                        "rule": ""
+                    },
+                    {
+                        "name": "Ветки и слияние",
+                        "link": "https://uleming.github.io/gitbook/5_%D0%9F%D1%80%D0%BE%D0%B4%D0%B2%D0%B8%D0%BD%D1%83%D1%82%D0%B0%D1%8F_%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0_%D1%81_%D0%B2%D0%B5%D1%82%D0%BA%D0%B0%D0%BC%D0%B8_%D0%B8_%D1%81%D0%BB%D0%B8%D1%8F%D0%BD%D0%B8%D0%B5%D0%BC.html",
+                        "color": "#ffffff",
+                        "r": "15",
+                        "rule": ""
+                    },
+                    {
+                        "name": "Ветвление в Git для agile-команд",
+                        "link": "https://www.atlassian.com/ru/agile/software-development/git-branching-video",
+                        "color": "#ffffff",
+                        "r": "15",
+                        "rule": ""
+                    }
+                    ]
+
+
+
+
+                },
+                {
+                    "name": "Системы контроля версий",
+                    "link": "https://htmlacademy.ru/blog/boost/tools/version-control-system",
+                    "color": "#ffffff",
+                    "r": "15",
+                    "rule": ""
+                }
+                ]
+
+
+
+            },
+            {
+                "name": "Git для начинающих",
+                "link": "https://losst.ru/kak-polzovatsya-git-dlya-nachinayushhih",
+                "color": "#ffffff",
+                "r": "15",
+                "rule": ""
+        },
+            {
+                "name": "Git для новичков",
+                "link": "https://habr.com/ru/post/541258/",
+                "color": "#ffffff",
+                "r": "15",
+                "rule": ""
+            }
+            ]
+        }]

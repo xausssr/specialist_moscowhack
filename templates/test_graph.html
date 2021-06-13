@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+
+<!-- Load d3.js -->
+<script src="https://d3js.org/d3.v2.js"></script>
+
+<style>
+.node circle {
+    fill: #fff;
+    stroke: rgb(34, 144, 233);
+    stroke-width: 1.5px;
+}
+.node text {
+    font: 10px sans-serif;
+}
+</style>
+
+<br></br>
+
+<script>
+var width = 1000,
+    height = 500;
+
+var tree = d3.layout.tree()
+    .size([height, width - 300]);
+
+var diagonal = d3.svg.diagonal()
+    .projection(function (d) {
+        return [d.y, d.x];
+    });
+
+var svg = d3.select("body").append("svg")
+    .attr("width", width)
+    .attr("height", height)
+    .append("g")
+    .attr("transform", "translate(150,0)");
+
+var root = getData(),
+    nodes = tree.nodes(root),
+    links = tree.links(nodes);
+
+var link = svg.selectAll(".link")
+    .data(links)
+    .enter()
+    .append("g")
+    .attr("class", "link");
+
+link.append("path")
+    .attr("fill", "none")
+    .attr("stroke", "#00a6d8")
+    .attr("stroke-width", "1.5px")
+    .attr("d", diagonal);
+
+link.append("text")
+    .attr("font-family", "Arial, Helvetica, sans-serif")
+    .attr("fill", "Black")
+    .style("font", "normal 12px Arial")
+    .attr("transform", function(d) {
+        return "translate(" +
+            ((d.source.y + d.target.y)/2) + "," + 
+            ((d.source.x + d.target.x)/2) + ")";
+    })   
+    .attr("dy", ".35em")
+    .attr("text-anchor", "middle")
+    .text(function(d) {
+         return d.target.rule;
+    });
+
+var node = svg.selectAll(".node")
+    .data(nodes)
+    .enter()
+    .append("g")
+    .attr("class", "node")
+    .attr("transform", function (d) {
+        return "translate(" + d.y + "," + d.x + ")";
+    }).on("click", click)
+    .on("mouseover", function(d) {
+        d3.select(this).select('text').style("fill", "#ffffff").attr("dy", -48);
+        d3.select(this).select('circle').style("fill", "lightsteelblue").style("r", "40");
+    })
+    .on("mouseout", function(d) {
+        d3.select(this).select('text').style("fill", "#d1d1d1").attr("dy", function(d){return -d.r * 1.2;});
+        d3.select(this).select('circle').style("fill", function(d){return d.color;}).style("r", function(d) {return d.r;});
+    })
+    
+node.append("circle")
+    .attr("r", function(d) {return d.r;})
+    .style("fill", function(d){return d.color;})
+
+node.append("text")
+    .attr("dx", function (d) {
+        return d.children ? -8 : 8;
+    })
+    .attr("dy", function(d) {return -d.r * 1.2;})
+    .style("text-anchor", "middle")
+    .style("font-size", "16px")
+    .text(function (d) {
+        return d.name;
+    })
+    .style("fill", "#d1d1d1");
+
+function click (d){
+    let url = d.link
+    window.open(url, "_self");
+}
+
+function getData(){
+return {
+"name": "питон для начинающих",
+        "link": "https://netology.ru/programs/python-free",
+        "color": "#00a6d8 ",
+        "r":"20",
+        "rule": "",
+            "children": [{
+            "name": "Python с нуля",
+            "link": "https://netology.ru/programs/python",
+            "color": "#00a6d8 ",
+            "r":"20",
+            "rule": "",
+                    "children": [{
+                    "name": "Работа с документацией",
+                    "link": "https://proglib.io/p/python-docs",
+                    "color": "#ffffff",
+                    "r": "20",
+                    "rule": "",
+                    "children": [{
+                        "name": "документация",
+                        "link": "https://pythonru.com/biblioteki",
+                        "color": "#ffffff",
+                        "r": "20",
+                        "rule": ""
+                    }]
+            }, {
+            "name": "course4",
+            "color": "#ffffff",
+            "r":"20",
+            "rule": ""  
+            }]
+        }, {
+            "name": "первые шаги",
+            "color": "#00a6d8 ",
+            "r":"20",
+            "rule": "",
+                "children": [{
+                "name": "настрой окружение",
+                "link": "https://habr.com/ru/post/491916/",
+                "color": "#00a6d8 ",
+                "r": "20",
+                "rule": ""
+                },
+                   {
+            "name": "советы от google",
+            "link": "https://google.github.io/styleguide/pyguide.html",
+            "color": "#00a6d8 ",
+            "r": "20",
+            "rule": ""
+                },
+                {
+            "name": "основы git",
+            "link": "https://habr.com/ru/post/472600/",
+            "color": "#00a6d8 ",
+            "r": "20",
+            "rule": ""
+                    }
+                ]
+        }, {
+            "name": "Fullstack-разработчик на Python",
+            "link": "https://netology.ru/programs/fullstack-python-dev",
+            "color": "#ffffff",
+            "r":"20",
+            "rule": "",
+                "children": [{
+                "name": "Web-разработка",
+                "link": "https://habr.com/ru/post/446668/",
+                "color": "#ffffff",
+                "r":"20",
+                 "rule": "",
+
+
+                    "children": [{
+                    "name": "Django",
+                    "link": "https://www.specialist.ru/course/python3",
+                    "color": "#ffffff",
+                    "r": "20",
+                    "rule": "",
+                        "children": [{
+                        "name": "коротко о Django",
+                        "link": "https://habr.com/ru/post/240463/",
+                        "color": "#ffffff",
+                        "r": "20",
+                        "rule": ""
+                        }]
+                    },
+                        {
+                    "name": "Flask",
+                    "link": "https://www.specialist.ru/track/t-pyflas",
+                    "color": "#00a6d8 ",
+                    "r": "20",
+                    "rule": "",
+                        "children": [{
+                        "name": "коротко о Flask",
+                        "link": "https://habr.com/ru/post/320360/",
+                        "color": "#ffffff",
+                        "r": "20",
+                        "rule": ""
+                            }]
+                        }
+                    ]
+
+            }, {
+
+                        "name": "анализ данных",
+                        "link": "https://www.specialist.ru/track/t-pyflas",
+                        "color": "#ffffff",
+                        "r":"20",
+                        "rule": "",
+                            "children": [{
+                            "name": "NumPy",
+                            "link": "https://python-scripts.com/numpy",
+                            "color": "#00a6d8 ",
+                            "r": "20",
+                            "rule": "",
+                                "children": [{
+                                "name": "Pandas",
+                                "link": "https://stepik.org/course/83990/promo",
+                                "color": "#00a6d8 ",
+                                "r": "20",
+                                "rule": ""
+                                }]
+                            },
+
+                        ]
+            }]
+        }],
+        "name": "питон для начинающих",
+        "link": "https://netology.ru/programs/python-free",
+        "color": "#00a6d8 ",
+        "r":"20",
+        "rule": "",
+            "children": [{
+            "name": "Python с нуля",
+            "link": "https://netology.ru/programs/python",
+            "color": "#00a6d8 ",
+            "r":"20",
+            "rule": "",
+                    "children": [{
+                    "name": "Работа с документацией",
+                    "link": "https://proglib.io/p/python-docs",
+                    "color": "#ffffff",
+                    "r": "20",
+                    "rule": "",
+                    "children": [{
+                        "name": "документация",
+                        "link": "https://pythonru.com/biblioteki",
+                        "color": "#ffffff",
+                        "r": "20",
+                        "rule": ""
+                    }]
+            }, {
+            "name": "course4",
+            "color": "#ffffff",
+            "r":"20",
+            "rule": ""  
+            }]
+        }, {
+            "name": "первые шаги",
+            "color": "#00a6d8 ",
+            "r":"20",
+            "rule": "",
+                "children": [{
+                "name": "настрой окружение",
+                "link": "https://habr.com/ru/post/491916/",
+                "color": "#00a6d8 ",
+                "r": "20",
+                "rule": ""
+                },
+                   {
+            "name": "советы от google",
+            "link": "https://google.github.io/styleguide/pyguide.html",
+            "color": "#00a6d8 ",
+            "r": "20",
+            "rule": ""
+                },
+                {
+            "name": "основы git",
+            "link": "https://habr.com/ru/post/472600/",
+            "color": "#00a6d8 ",
+            "r": "20",
+            "rule": ""
+                    }
+                ]
+        }, {
+            "name": "Fullstack-разработчик на Python",
+            "link": "https://netology.ru/programs/fullstack-python-dev",
+            "color": "#ffffff",
+            "r":"20",
+            "rule": "",
+                "children": [{
+                "name": "Web-разработка",
+                "link": "https://habr.com/ru/post/446668/",
+                "color": "#ffffff",
+                "r":"20",
+                 "rule": "",
+
+
+                    "children": [{
+                    "name": "Django",
+                    "link": "https://www.specialist.ru/course/python3",
+                    "color": "#ffffff",
+                    "r": "20",
+                    "rule": "",
+                        "children": [{
+                        "name": "коротко о Django",
+                        "link": "https://habr.com/ru/post/240463/",
+                        "color": "#ffffff",
+                        "r": "20",
+                        "rule": ""
+                        }]
+                    },
+                        {
+                    "name": "Flask",
+                    "link": "https://www.specialist.ru/track/t-pyflas",
+                    "color": "#00a6d8 ",
+                    "r": "20",
+                    "rule": "",
+                        "children": [{
+                        "name": "коротко о Flask",
+                        "link": "https://habr.com/ru/post/320360/",
+                        "color": "#ffffff",
+                        "r": "20",
+                        "rule": ""
+                            }]
+                        }
+                    ]
+
+            }, {
+
+                        "name": "анализ данных",
+                        "link": "https://www.specialist.ru/track/t-pyflas",
+                        "color": "#ffffff",
+                        "r":"20",
+                        "rule": "",
+                            "children": [{
+                            "name": "NumPy",
+                            "link": "https://python-scripts.com/numpy",
+                            "color": "#00a6d8 ",
+                            "r": "20",
+                            "rule": "",
+                                "children": [{
+                                "name": "Pandas",
+                                "link": "https://stepik.org/course/83990/promo",
+                                "color": "#00a6d8 ",
+                                "r": "20",
+                                "rule": ""
+                                }]
+                            },
+
+                        ]
+            }]
+        }]
+};
+};
+
+</script>

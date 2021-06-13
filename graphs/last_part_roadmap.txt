@@ -1,0 +1,25 @@
+
+};
+};
+
+</script>
+</div>
+               </div>
+            </div>
+            <script>$( document ).ready(function() { t396_init('325561910');
+               });
+            </script><!-- /T396 -->
+         </div>
+         <div id="rec325561911" class="r t-rec t-rec_pt_0 t-rec_pb_0" style="padding-top:0px;padding-bottom:0px;background-color:#000000; " data-record-type="594" data-bg-color="#000000">
+            <!-- t594 -->
+            <div class="t594">
+               <div class="t594__container t-container">
+                  <div class="t-col t594__item t594__item_3-in-row"> <a class="t594__linkwrapper" href="https://moscityhack.innoagency.ru/" target=""> <img src="https://static.tildacdn.com/tild3136-3931-4034-b031-346537666566/-/empty/moscowcityhack.png" data-original="https://static.tildacdn.com/tild3136-3931-4034-b031-346537666566/moscowcityhack.png" class="t594__img t-img t594__greyonhovercolor t594__alphaonhover" imgfield="li_img__1481203544538" style="max-width:150px;" /> </a> </div>
+                  <div class="t-col t594__item t594__item_3-in-row"> <a class="t594__linkwrapper" href="https://netology.ru/?utm_source=yandex&amp;utm_medium=cpc&amp;utm_campaign=brand_all_ou_ya_retarget&amp;utm_content=7495941946&amp;utm_term=%D0%BD%D0%B5%D1%82%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F&amp;yclid=3238280223076670722&amp;stop=1" target=""> <img src="https://static.tildacdn.com/tild3836-3866-4163-b364-313133313833/-/empty/photo.png" data-original="https://static.tildacdn.com/tild3836-3866-4163-b364-313133313833/photo.png" class="t594__img t-img t594__greyonhovercolor t594__alphaonhover" imgfield="li_img__1481205879887" style="max-width:150px;" /> </a> </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Stat --><script type="text/javascript">if (! window.mainTracker) { window.mainTracker = 'tilda'; }	(function (d, w, k, o, g) { var n=d.getElementsByTagName(o)[0],s=d.createElement(o),f=function(){n.parentNode.insertBefore(s,n);}; s.type = "text/javascript"; s.async = true; s.key = k; s.id = "tildastatscript"; s.src=g; if (w.opera=="[object Opera]") {d.addEventListener("DOMContentLoaded", f, false);} else { f(); } })(document, window, 'a89f347549fd662546781c45fe57d90c','script','https://static.tildacdn.com/js/tildastat-0.2.min.js');</script>
+   </body>
+</html>

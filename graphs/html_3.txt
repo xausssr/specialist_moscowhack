@@ -1,0 +1,105 @@
+        "name": "HTML",
+        "color": "#00a6d8",
+        "r": "30",
+        "rule": "",
+        "children": [{
+            "name": "НАЧАЛЬНЫЙ",
+            "link": "https://netology.ru/programs/html-css-base",
+            "color": "#00a6d8",
+            "r": "30",
+            "rule": "",
+            "children": [{
+                "name": "Основные теги HTML",
+                "link": "http://www.astro.spbu.ru/staff/afk/Teaching/Help/Tegs.htm",
+                "color": "#00a6d8",
+                "r": "15",
+                "rule": ""
+            },
+            {
+                "name": "СРЕДНИЙ",
+                "link": "https://netology.ru/programs/front-end#/",
+                "color": "#ffffff",
+                "r": "30",
+                "rule": "",
+
+
+                    "children": [{
+                    "name": "Основы CSS",
+                    "link": "https://habr.com/ru/post/491916/",
+                    "color": "#00a6d8",
+                    "r": "15",
+                    "rule": ""
+                },
+                {
+                    "name": "Тренажёр css и html",
+                    "link": "https://htmlacademy.ru/courses/basic-html-css",
+                    "color": "#ffffff",
+                    "r": "15",
+                    "rule": ""
+                },
+                {
+                    "name": "ПРО",
+                    "link": "https://znanieetosila.ru/profile/training/9",
+                    "color": "#ffffff",
+                    "r": "30",
+                    "rule": "",
+
+
+
+
+                        "children": [{
+                        "name": "Продвинутый тренажёр",
+                        "link": "https://htmlacademy.ru/courses/advanced-html-css",
+                        "color": "#ffffff",
+                        "r": "15",
+                        "rule": ""
+                    },
+                    {
+                        "name": "Секреты HTML",
+                        "link": "http://on-line-teaching.com/html/lsn020.html",
+                        "color": "#ffffff",
+                        "r": "15",
+                        "rule": ""
+                    },
+                    {
+                        "name": "Продвинутая верстка",
+                        "link": "https://www.arnoldovich.name/besplatnye-knigi/item/411-prodvinutye-uroki-po-html-i-css.html",
+                        "color": "#ffffff",
+                        "r": "15",
+                        "rule": ""
+                    }
+                    ]
+
+
+
+
+                },
+                {
+                    "name": "Практикум",
+                    "link": "https://itvdn.com/ru/skills/practicums/html-and-css",
+                    "color": "#00a6d8",
+                    "r": "15",
+                    "rule": ""
+                }
+                ]
+
+
+
+            },
+            {
+                "name": "Справочник",
+                "link": "http://htmlbook.ru/html",
+                "color": "#00a6d8",
+                "r": "15",
+                "rule": ""
+        },
+            {
+                "name": "Этапы изучения",
+                "link": "https://blog.ithillel.ua/articles/5-etapov-samostoyatelnogo-izucheniya-html-i-css",
+                "color": "#00a6d8",
+                "r": "15",
+                "rule": ""
+            }
+            ]
+        }]
+

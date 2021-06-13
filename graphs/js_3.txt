@@ -1,0 +1,104 @@
+        "name": "JavaScript",
+        "color": "#00a6d8",
+        "r": "30",
+        "rule": "",
+        "children": [{
+            "name": "НАЧАЛЬНЫЙ",
+            "link": "https://developer.mozilla.org/ru/docs/Learn/JavaScript/First_steps/What_is_JavaScript",
+            "color": "#00a6d8",
+            "r": "30",
+            "rule": "",
+            "children": [{
+                "name": "С чего начать",
+                "link": "https://itvdn.com/ru/blog/article/studying-javascript",
+                "color": "#00a6d8",
+                "r": "15",
+                "rule": ""
+            },
+            {
+                "name": "СРЕДНИЙ",
+                "link": "https://netology.ru/programs/javascript-fullstack",
+                "color": "#00a6d8",
+                "r": "30",
+                "rule": "",
+
+
+                    "children": [{
+                    "name": "Полезные приемы",
+                    "link": "https://habr.com/ru/company/ruvds/blog/505754/",
+                    "color": "#00a6d8",
+                    "r": "15",
+                    "rule": ""
+                },
+                {
+                    "name": "Советы сеньоров",
+                    "link": "https://dou.ua/lenta/articles/senior-frontend-tips/",
+                    "color": "#00a6d8",
+                    "r": "15",
+                    "rule": ""
+                },
+                {
+                    "name": "ПРО",
+                    "link": "https://webbooks.com.ua/books-main/javascript/javascript-dlya-professionalov-code-2016-pdf-dzhon-rezig-rass-fergyuson/",
+                    "color": "#ffffff",
+                    "r": "30",
+                    "rule": "",
+
+
+
+
+                        "children": [{
+                        "name": "Секреты профессионала",
+                        "link": "http://www.habucenter.ru/upload/iblock/76a/76a7f6a0d1fda54f72505775f5b9d864.pdf",
+                        "color": "#ffffff",
+                        "r": "15",
+                        "rule": ""
+                    },
+                    {
+                        "name": "React",
+                        "link": "https://netology.ru/programs/react",
+                        "color": "#ffffff",
+                        "r": "15",
+                        "rule": ""
+                    },
+                    {
+                        "name": "Node.js",
+                        "link": "https://netology.ru/programs/nodejs",
+                        "color": "#ffffff",
+                        "r": "15",
+                        "rule": ""
+                    }
+                    ]
+
+
+
+
+                },
+                {
+                    "name": "Профессиональные приемы",
+                    "link": "https://webformyself.com/9-priemov-programmirovaniya-na-javascript/",
+                    "color": "#00a6d8",
+                    "r": "15",
+                    "rule": ""
+                }
+                ]
+
+
+
+            },
+            {
+                "name": "Советы",
+                "link": "https://netology.ru/blog/learn-javascript-basics",
+                "color": "#00a6d8",
+                "r": "15",
+                "rule": ""
+        },
+            {
+                "name": "Шпаргалка",
+                "link": "https://tproger.ru/translations/javascript-cheatsheet/",
+                "color": "#00a6d8",
+                "r": "15",
+                "rule": ""
+            }
+            ]
+        }]

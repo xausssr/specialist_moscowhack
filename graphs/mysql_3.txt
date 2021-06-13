@@ -1,0 +1,110 @@
+var width = 1500,
+    height = 650;
+
+var tree = d3.layout.tree()
+    .size([height, width - 200]);
+
+        "name": "MySQL",
+        "color": "#00a6d8",
+        "r": "30",
+        "rule": "",
+        "children": [{
+            "name": "НАЧАЛЬНЫЙ",
+            "link": "https://wiki.gentoo.org/wiki/MySQL/Startup_Guide/ru",
+            "color": "#00a6d8",
+            "r": "30",
+            "rule": "",
+            "children": [{
+                "name": "Основные команды SQL",
+                "link": "https://tproger.ru/translations/sql-recap/",
+                "color": "#00a6d8",
+                "r": "15",
+                "rule": ""
+            },
+            {
+                "name": "СРЕДНИЙ",
+                "link": "https://www.specialist.ru/course/mskvl",
+                "color": "#00a6d8",
+                "r": "30",
+                "rule": "",
+
+
+                    "children": [{
+                    "name": "Руководство по MySQL",
+                    "link": "https://metanit.com/sql/mysql/",
+                    "color": "#00a6d8",
+                    "r": "15",
+                    "rule": ""
+                },
+                {
+                    "name": "Самоучитель MySQL 5",
+                    "link": "http://bookash.pro/ru/book/195108/samouchitel-MySQL-5-maksim-kuznetsov",
+                    "color": "#00a6d8",
+                    "r": "15",
+                    "rule": ""
+                },
+                {
+                    "name": "ПРО",
+                    "link": "http://www.rldp.ru/mysql/mysqlpro/oglavpro.htm",
+                    "color": "#ffffff",
+                    "r": "30",
+                    "rule": "",
+
+
+
+
+                        "children": [{
+                        "name": "Базы данных. Инжиниринг надежности | Кэмпбелл Лейн, Мейджорс Черити",
+                        "link": "https://www.ozon.ru/product/bazy-dannyh-inzhiniring-nadezhnosti-kempbell-leyn-meydzhors-cheriti-172385106/?utm_source=google&utm_medium=cpc&utm_campaign=RF_Product_Shopping_Books_super&gclid=CjwKCAjw2ZaGBhBoEiwA8pfP_rskHw7MZwsg-h62f7H31u0MtLWGjoc9C-ObgZHV7P17LPBe4lWJEhoC7UkQAvD_BwE",
+                        "color": "#ffffff",
+                        "r": "15",
+                        "rule": ""
+                    },
+                    {
+                        "name": "Системы баз данных. Полный курс | Ульман Джеффри Д., Уидом Дженнифер",
+                        "link": "https://www.ozon.ru/product/sistemy-baz-dannyh-polnyy-kurs-1351096/?utm_source=google&utm_medium=cpc&utm_campaign=RF_Product_Shopping_Books_super&gclid=CjwKCAjw2ZaGBhBoEiwA8pfP_mhM9dUnqiKje1Ewf63L7wnXJ0nyCL94Vo7gEoxxzQCID09xuZMu7hoCEPcQAvD_BwE",
+                        "color": "#ffffff",
+                        "r": "15",
+                        "rule": ""
+                    },
+                    {
+                        "name": "Проектирование базы данных",
+                        "link": "https://it.wikireading.ru/30583",
+                        "color": "#ffffff",
+                        "r": "15",
+                        "rule": ""
+                    }
+                    ]
+
+
+
+
+                },
+                {
+                    "name": "Создание базы данных MySQL",
+                    "link": "http://www.orenport.ru/images/img/1279/8.html",
+                    "color": "#00a6d8",
+                    "r": "15",
+                    "rule": ""
+                }
+                ]
+
+
+
+            },
+            {
+                "name": "MySQL шпаргалки",
+                "link": "https://habr.com/ru/post/105954/",
+                "color": "#00a6d8",
+                "r": "15",
+                "rule": ""
+        },
+            {
+                "name": "MySQL. Сборник рецептов. Поль Дюбуа",
+                "link": "https://progerlib.ru/mysql-books",
+                "color": "#00a6d8",
+                "r": "15",
+                "rule": ""
+            }
+            ]
+        }]

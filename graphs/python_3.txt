@@ -1,0 +1,104 @@
+        "name": "python",
+        "color": "#00a6d8",
+        "r": "30",
+        "rule": "",
+        "children": [{
+            "name": "НАЧАЛЬНЫЙ",
+            "link": "https://netology.ru/programs/python-free",
+            "color": "#00a6d8",
+            "r": "30",
+            "rule": "",
+            "children": [{
+                "name": "основы git",
+                "link": "https://habr.com/ru/post/472600/",
+                "color": "#00a6d8",
+                "r": "15",
+                "rule": ""
+            },
+            {
+                "name": "СРЕДНИЙ",
+                "link": "https://netology.ru/programs/python",
+                "color": "#00a6d8",
+                "r": "30",
+                "rule": "",
+
+
+                    "children": [{
+                    "name": "Работа с документацией",
+                        "link": "https://proglib.io/p/python-docs",
+                    "color": "#00a6d8",
+                    "r": "15",
+                    "rule": ""
+                },
+                {
+                    "name": "Документация Python",
+                    "link": "https://pythonru.com/biblioteki",
+                    "color": "#00a6d8",
+                    "r": "15",
+                    "rule": ""
+                },
+                {
+                    "name": "ПРО",
+                    "link": "https://netology.ru/programs/fullstack-python-dev",
+                    "color": "#ffffff",
+                    "r": "30",
+                    "rule": "",
+
+
+
+
+                        "children": [{
+                        "name": "Анализ данных",
+                        "link": "https://www.specialist.ru/track/t-pyflas",
+                        "color": "#ffffff",
+                        "r": "15",
+                        "rule": ""
+                    },
+                    {
+                        "name": "Django",
+                        "link": "https://www.specialist.ru/course/python3",
+                        "color": "#ffffff",
+                        "r": "15",
+                        "rule": ""
+                    },
+                    {
+                        "name": "Pandas",
+                        "link": "https://stepik.org/course/83990/promo",
+                        "color": "#ffffff",
+                        "r": "15",
+                        "rule": ""
+                    }
+                    ]
+
+
+
+
+                },
+                {
+                    "name": "Коротко о Django",
+                    "link": "https://habr.com/ru/post/240463/",
+                    "color": "#00a6d8",
+                    "r": "15",
+                    "rule": ""
+                }
+                ]
+
+
+
+            },
+            {
+                "name": "Советы от Google",
+                "link": "https://google.github.io/styleguide/pyguide.html",
+                "color": "#00a6d8",
+                "r": "15",
+                "rule": ""
+        },
+            {
+                "name": "Настройка окружения",
+                "link": "https://habr.com/ru/post/491916/",
+                "color": "#00a6d8",
+                "r": "15",
+                "rule": ""
+            }
+            ]
+        }]

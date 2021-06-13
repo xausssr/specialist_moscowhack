@@ -1,0 +1,104 @@
+"name": "Linux",
+        "color": "#ffffff",
+        "r": "30",
+        "rule": "",
+        "children": [{
+            "name": "НАЧАЛЬНЫЙ",
+            "link": "http://blog.netskills.ru/p/linux.html",
+            "color": "#ffffff",
+            "r": "30",
+            "rule": "",
+            "children": [{
+                "name": "Терминал",
+                "link": "https://samoedd.com/soft/terminal-unix",
+                "color": "#ffffff",
+                "r": "15",
+                "rule": ""
+            },
+            {
+                "name": "СРЕДНИЙ",
+                "link": "https://linuxtrainingcenter.com/lpic2-rus-full/",
+                "color": "#ffffff",
+                "r": "30",
+                "rule": "",
+
+
+                    "children": [{
+                    "name": "Больше команд",
+                    "link": "https://lifehacker.ru/komandy-linux/",
+                    "color": "#ffffff",
+                    "r": "15",
+                    "rule": ""
+                },
+                {
+                    "name": "Секреты Linux",
+                    "link": "https://www.dhome.ru/art/Linux_Secrets.htm",
+                    "color": "#ffffff",
+                    "r": "15",
+                    "rule": ""
+                },
+                {
+                    "name": "ПРО",
+                    "link": "https://linuxtrainingcenter.com/",
+                    "color": "#ffffff",
+                    "r": "30",
+                    "rule": "",
+
+
+
+
+                        "children": [{
+                        "name": "Секреты настройки",
+                            "link": "https://library.kre.dp.ua/Books/2-4%20kurs/%D0%9E%D0%BF%D0%B5%D1%80%D0%B0%D1%86%D1%96%D0%B9%D0%BD%D1%96%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B8/Linux%20%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0%20%D0%B0%D0%B4%D0%BC%D0%B8%D0%BD%D0%B8%D1%81%D1%82%D1%80%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5/%D0%91%D1%83%D1%81%D0%B0%D1%80%D0%B3%D0%B8%D0%BD%20%D0%9C.%20Linux%20Ubuntu.%20%D0%A1%D0%B5%D0%BA%D1%80%D0%B5%D1%82%D1%8B%20%D0%B8%20%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B8%20%282010%29.pdf",
+                        "color": "#ffffff",
+                        "r": "15",
+                        "rule": ""
+                    },
+                    {
+                        "name": "ИБ в Linux",
+                        "link": "https://www.specialist.ru/section/linux-security",
+                        "color": "#ffffff",
+                        "r": "15",
+                        "rule": ""
+                    },
+                    {
+                        "name": "Документация Kali Linux",
+                        "link": "https://codernet.ru/books/linux/dokumentaciya_kali_linux_na_russkom_yazyke/",
+                        "color": "#ffffff",
+                        "r": "15",
+                        "rule": ""
+                    }
+                    ]
+
+
+
+
+                },
+                {
+                    "name": "Документация",
+                    "link": "http://linux.yaroslavl.ru/",
+                    "color": "#ffffff",
+                    "r": "15",
+                    "rule": ""
+                }
+                ]
+
+
+
+            },
+            {
+                "name": "Работа в терминале",
+                "link": "https://losst.ru/rabota-v-terminale-linux-dlya-nachinayushhih",
+                "color": "#ffffff",
+                "r": "15",
+                "rule": ""
+        },
+            {
+                "name": "Шпаргалка по командам",
+                "link": "https://losst.ru/42-komandy-linux-kotorye-vy-dolzhny-znat",
+                "color": "#ffffff",
+                "r": "15",
+                "rule": ""
+            }
+            ]
+        }]
