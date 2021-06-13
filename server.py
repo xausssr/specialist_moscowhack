@@ -50,6 +50,18 @@ def index():
 def team():
     return render_template("team.html")
 
+@server.route("/achiev")
+def achiev():
+    return render_template("achiev.html")
+
+@server.route("/research")
+def research():
+    return render_template("research.html")
+
+@server.route("/resources")
+def resources():
+    return render_template("resources.html")
+
 if __name__ == '__main__':
     
     context = ssl.SSLContext(ssl.PROTOCOL_TLSv1_2)
